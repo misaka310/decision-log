@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>決断ログ</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>決断ログ</h1>
+
+    <label class="label">今日の決断（1行）</label>
+    <input id="decision" type="text" placeholder="例：夜はゲーム30分まで" />
+
+    <label class="check">
+      <input id="medicine" type="checkbox" />
+      薬を飲んだ
+    </label>
+
+    <button id="save">保存</button>
+
+    <h2>履歴</h2>
+    <ul id="logs"></ul>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
